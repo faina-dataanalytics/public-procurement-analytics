@@ -1,1 +1,49 @@
-#
+result-card{
+
+    background:white;
+
+    border-left:6px solid var(--green);
+
+    border-radius:12px;
+
+    padding:40px;
+
+    box-shadow:var(--shadow);
+
+    text-align:center;
+
+    margin-top:30px;
+
+    margin-bottom:30px;
+
+}
+
+.result-label{
+
+    color:var(--grey);
+
+    font-size:1rem;
+
+}
+
+.result-value{
+
+    font-size:4rem;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    margin-top:10px;
+
+}
+
+.risk-level{
+
+    margin-top:18px;
+
+    font-size:1.5rem;
+
+    font-weight:600;
+
+}
