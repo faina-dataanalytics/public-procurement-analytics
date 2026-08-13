@@ -1,93 +1,75 @@
+/* ==========================================================
+   DESIGN TOKENS
+   TED Decision Support System
+   ========================================================== */
+
 :root {
 
-    /* ---------- Colors ---------- */
+    /* ======================================================
+       COLORS
+       ====================================================== */
 
-    --primary: #163547;
+    --color-primary: #163547;
 
-    --green: #4CBF84;
+    --color-accent: #4CBF84;
 
-    --grey: #808080;
+    --color-background: #F7F8FA;
 
-    --surface: #F7F8FA;
+    --color-surface: #FFFFFF;
 
-    --line: #D7D7D7;
+    --color-border: #E2E6EA;
 
-    --text: #222222;
+    --color-text: #1F2933;
 
-    --white: #FFFFFF;
+    --color-text-secondary: #66788A;
 
-    --warning: #F5A623;
+    --color-success: #4CBF84;
 
-    --danger: #D9534F;
+    --color-warning: #F2C94C;
 
-    /* ---------- Typography ---------- */
+    --color-danger: #D9534F;
 
-    --font: "Roboto", sans-serif;
+    /* ======================================================
+       TYPOGRAPHY
+       ====================================================== */
 
-    --title: 2.2rem;
+    --font-primary: "Roboto", sans-serif;
 
-    --section: 1.4rem;
+    --fs-title: 2.5rem;
 
-    --body: 1rem;
+    --fs-subtitle: 1.15rem;
 
-    --small: .9rem;
+    --fs-section: 1.5rem;
 
-    /* ---------- Layout ---------- */
+    --fs-body: 1rem;
+
+    --fs-small: .9rem;
+
+    --fw-regular: 400;
+
+    --fw-medium: 500;
+
+    --fw-bold: 700;
+
+    /* ======================================================
+       LAYOUT
+       ====================================================== */
+
+    --container-width: 1200px;
+
+    --section-gap: 60px;
+
+    --card-padding: 32px;
+
+    /* ======================================================
+       BORDER
+       ====================================================== */
 
     --radius: 12px;
 
+    --transition: .25s ease;
+
     --shadow:
-
-        0 8px 24px rgba(0,0,0,.08);
-
-}
-assets/css/base.css
-html,
-body,
-[class*="css"] {
-
-    font-family: var(--font);
-
-}
-
-.main-title{
-
-    color: var(--primary);
-
-    font-size: var(--title);
-
-    font-weight:700;
-
-    margin-bottom:0;
-
-}
-
-.subtitle{
-
-    color:var(--grey);
-
-    margin-top:.3rem;
-
-}
-
-.section-title{
-
-    color:var(--primary);
-
-    font-size:var(--section);
-
-    font-weight:600;
-
-    margin-bottom:20px;
-
-}
-assets/css/layout.css
-.block-container{
-
-    padding-top:2rem;
-
-    padding-bottom:3rem;
-
-    max-width:1400px;
+        0 8px 24px rgba(0,0,0,.06);
 
 }
