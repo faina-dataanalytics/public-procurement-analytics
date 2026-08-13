@@ -1,1 +1,93 @@
-# Variables
+:root {
+
+    /* ---------- Colors ---------- */
+
+    --primary: #163547;
+
+    --green: #4CBF84;
+
+    --grey: #808080;
+
+    --surface: #F7F8FA;
+
+    --line: #D7D7D7;
+
+    --text: #222222;
+
+    --white: #FFFFFF;
+
+    --warning: #F5A623;
+
+    --danger: #D9534F;
+
+    /* ---------- Typography ---------- */
+
+    --font: "Roboto", sans-serif;
+
+    --title: 2.2rem;
+
+    --section: 1.4rem;
+
+    --body: 1rem;
+
+    --small: .9rem;
+
+    /* ---------- Layout ---------- */
+
+    --radius: 12px;
+
+    --shadow:
+
+        0 8px 24px rgba(0,0,0,.08);
+
+}
+assets/css/base.css
+html,
+body,
+[class*="css"] {
+
+    font-family: var(--font);
+
+}
+
+.main-title{
+
+    color: var(--primary);
+
+    font-size: var(--title);
+
+    font-weight:700;
+
+    margin-bottom:0;
+
+}
+
+.subtitle{
+
+    color:var(--grey);
+
+    margin-top:.3rem;
+
+}
+
+.section-title{
+
+    color:var(--primary);
+
+    font-size:var(--section);
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+assets/css/layout.css
+.block-container{
+
+    padding-top:2rem;
+
+    padding-bottom:3rem;
+
+    max-width:1400px;
+
+}
