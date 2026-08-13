@@ -1,0 +1,101 @@
+/* ==========================================================
+   VARIABLES.CSS
+   TED Decision Support System
+   Design Tokens
+   ========================================================== */
+
+:root {
+
+    /* ======================================================
+       COLORS
+       ====================================================== */
+
+    --color-primary: #163547;
+    --color-accent-green: #4CBF84;
+    --color-accent-grey: #808080;
+
+    --color-background: #F7F8FA;
+    --color-surface: #FFFFFF;
+
+    --color-border: #E2E6EA;
+    --color-line: #D6DCE3;
+
+    --color-text: #1F2933;
+    --color-text-secondary: #5F6C7B;
+
+    --color-success: #4CBF84;
+    --color-warning: #F5B942;
+    --color-danger: #D9534F;
+
+    /* ======================================================
+       TYPOGRAPHY
+       ====================================================== */
+
+    --font-primary: "Roboto", sans-serif;
+
+    --fs-page-title: 2.4rem;
+    --fs-page-subtitle: 1.15rem;
+
+    --fs-section-title: 1.45rem;
+
+    --fs-card-title: 1.15rem;
+
+    --fs-body: 1rem;
+
+    --fs-small: .9rem;
+
+    --fs-label: .82rem;
+
+    --line-height: 1.45;
+
+    /* ======================================================
+       FONT WEIGHTS
+       ====================================================== */
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+
+    /* ======================================================
+       LAYOUT
+       ====================================================== */
+
+    --container-width: 1200px;
+
+    --section-spacing: 60px;
+
+    --card-padding: 32px;
+
+    --input-height: 48px;
+
+    --button-height: 52px;
+
+    /* ======================================================
+       BORDER RADIUS
+       ====================================================== */
+
+    --radius-small: 6px;
+
+    --radius-medium: 10px;
+
+    --radius-large: 14px;
+
+    /* ======================================================
+       SHADOWS
+       ====================================================== */
+
+    --shadow-soft:
+        0 8px 24px rgba(0,0,0,.06);
+
+    --shadow-hover:
+        0 12px 32px rgba(0,0,0,.10);
+
+    /* ======================================================
+       TRANSITIONS
+       ====================================================== */
+
+    --transition-fast: .18s ease;
+
+    --transition-normal: .30s ease;
+
+}
