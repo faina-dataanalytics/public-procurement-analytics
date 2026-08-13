@@ -1,1 +1,29 @@
-# Layout
+/* ==========================================================
+   LAYOUT
+   ========================================================== */
+
+.section-divider {
+
+    width: 100%;
+
+    height: 4px;
+
+    background: #4CBF84;
+
+    margin-top: 1.5rem;
+
+    margin-bottom: 3rem;
+
+}
+
+.section-title {
+
+    color: #163547;
+
+    font-size: 1.45rem;
+
+    font-weight: 700;
+
+    margin-bottom: 1.5rem;
+
+}
