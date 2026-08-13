@@ -1,1 +1,31 @@
-#
+.coming-soon{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    background:#163547;
+
+    color:white;
+
+    padding:
+
+        8px 18px;
+
+    border-radius:20px;
+
+    font-size:.85rem;
+
+    margin-bottom:20px;
+
+}
